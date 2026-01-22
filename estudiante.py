@@ -13,7 +13,7 @@ class Estudiante():
         # Agrega o actualiza la nota de una materia
         # Validar que la calificación esté entre 0 y 10
         # Retornar True si se agregó, False si es inválida
-       
+        
         if calificacion >= 0 and calificacion <=10:
             self.notas [materia] = calificacion
             return True
